@@ -1,6 +1,4 @@
-![](../../workflows/cace/badge.svg)
-
-# sky130_leo_ip__comparator
+# sky130_leo_ip__comparator ![](../../workflows/cace/badge.svg)
 
 A simple comparator intended for 3.3V
 
