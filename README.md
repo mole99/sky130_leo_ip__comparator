@@ -5,7 +5,7 @@ A simple comparator intended for 3.3V
 > [!IMPORTANT]  
 > This is a very simple design and should only be used as a reference.
 
-- [Design Documentation](docs/sky130_leo_ip__comparator.md)
+- [Documentation](docs/sky130_leo_ip__comparator.md)
 - [Characterization](docs/sky130_leo_ip__comparator_rcx.md)
 
 ## CACE
