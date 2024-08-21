@@ -246,9 +246,9 @@ text {font-family: Sans-Serif;}
 <text fill="#cccccc"  xml:space="preserve" font-size="5.91032" transform="translate(785.527, 319.954)" >A</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="5.91032" transform="translate(785.527, 342.686)" >B</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="5.91032" transform="translate(844.04, 331.32)" >Y</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="11.8206" transform="translate(245.641, 569.122)" >         /home/leo/Projects/IPs/sky130_leo_ip__comparator/xschem/sky130_leo_ip__comparator.sch</text>
+<text fill="#cccccc"  xml:space="preserve" font-size="11.8206" transform="translate(245.641, 569.122)" >         /home/leo/Projects/tt08-aicd-playground/dependencies/sky130_leo_ip__comparator/xschem/sky130_leo_ip__comparator.sch</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="11.8206" transform="translate(245.641, 552.073)" >Leo Moser</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="11.8206" transform="translate(573.757, 552.073)" >2024-08-06  10:57:02</text>
+<text fill="#cccccc"  xml:space="preserve" font-size="11.8206" transform="translate(573.757, 552.073)" >2024-08-12  09:47:45</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="29.5516" transform="translate(114.932, 568.173)" >SCHEM</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="5.91032" transform="translate(492.376, 236.982)" >M8</text>
 <text fill="#ff0000"  xml:space="preserve" font-size="4.43274" transform="translate(511.322, 262.635)" >D</text>
