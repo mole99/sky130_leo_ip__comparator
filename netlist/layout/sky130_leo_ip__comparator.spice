@@ -65,24 +65,24 @@ X2 VPWR A Y VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0.4275 pd=3.57 as=0.21 ps=1.78 w
 X3 Y B VPWR VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0.21 pd=1.78 as=0.4275 ps=3.57 w=1.5 l=0.5
 .ends
 
-.subckt sky130_leo_ip__comparator VDD IN_P OUT_P IN_N VSS CLK_N OUT_N
-Xpfet_0 IN_P VDD COMP_P m1_1831_3328# pfet
-Xpfet_1 IN_N VDD m1_1831_3328# COMP_N pfet
+.subckt sky130_leo_ip__comparator VDD IN_P OUT_P IN_N VSS CLK OUT_N
+Xpfet_0 IN_P VDD COMP_N m1_1831_3328# pfet
+Xpfet_1 IN_N VDD m1_1831_3328# m1_1572_726# pfet
 Xsky130_fd_sc_hvl__buf_4_0 sky130_fd_sc_hvl__buf_4_0/A OUT_P VDD VDD VSS VSS sky130_fd_sc_hvl__buf_4
 Xres_poly$1_0 m1_282_7668# VSS VSS res_poly$1
 Xpfet$10_0 m1_282_7668# VDD VDD m1_1831_3328# pfet$10
 Xnfet$5_0 COMP_N SR_set VSS VSS nfet$5
-Xnfet$5_1 COMP_P SR_reset VSS VSS nfet$5
+Xnfet$5_1 m1_1572_726# SR_reset VSS VSS nfet$5
 Xpfet$9_0 m1_282_7668# VDD m1_282_7668# VDD pfet$9
 Xsky130_fd_sc_hvl__buf_4$VAR1_0 sky130_fd_sc_hvl__nand2_1_1/B OUT_N VDD VDD VSS VSS
 + sky130_fd_sc_hvl__buf_4$VAR1
-Xnfet_0 CLK_N COMP_P COMP_N VSS nfet
+Xnfet_0 CLK COMP_N m1_1572_726# VSS nfet
 Xpfet$5_0 COMP_N VDD VDD SR_set pfet$5
-Xpfet$5_1 COMP_P VDD VDD SR_reset pfet$5
-Xnfet$4_0 COMP_P COMP_N VSS VSS nfet$4
+Xpfet$5_1 m1_1572_726# VDD VDD SR_reset pfet$5
+Xnfet$4_0 COMP_N m1_1572_726# VSS VSS nfet$4
 Xsky130_fd_sc_hvl__nand2_1_0 SR_set sky130_fd_sc_hvl__nand2_1_1/B sky130_fd_sc_hvl__buf_4_0/A
 + VDD VDD VSS VSS sky130_fd_sc_hvl__nand2_1
-Xnfet$4_1 COMP_N VSS COMP_P VSS nfet$4
+Xnfet$4_1 m1_1572_726# VSS COMP_N VSS nfet$4
 Xsky130_fd_sc_hvl__nand2_1_1 sky130_fd_sc_hvl__nand2_1_1/B sky130_fd_sc_hvl__buf_4_0/A
 + SR_reset VDD VDD VSS VSS sky130_fd_sc_hvl__nand2_1
 .ends

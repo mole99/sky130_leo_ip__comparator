@@ -165,16 +165,16 @@ text {font-family: Sans-Serif;}
 <text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(227.171, 228.999)" >vdd</text>
 <text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(301.258, 228.999)" >vdd</text>
 <text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(279.17, 364.38) rotate(270)" >vss</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="9.75203" transform="translate(146.631, 309.377)" >clk_n</text>
+<text fill="#00ccee"  xml:space="preserve" font-size="9.75203" transform="translate(155.631, 309.377)" >clk</text>
 <text fill="#00ccee"  xml:space="preserve" font-size="9.75203" transform="translate(958.858, 252.547)" >out_p</text>
 <text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(342.088, 257.414)" >comp_p</text>
 <text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(342.088, 280.146)" >comp_n</text>
 <text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(433.016, 285.829)" >comp_p</text>
 <text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(563.725, 285.829)" >comp_n</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(522.688, 285.829)" >SR_reset</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(653.397, 285.829)" >SR_set</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(719.849, 342.659)" >SR_reset</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(727.849, 234.682)" >SR_set</text>
+<text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(653.397, 285.829)" >SR_reset_n</text>
+<text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(522.688, 285.829)" >SR_set_n</text>
+<text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(710.849, 342.659)" >SR_reset_n</text>
+<text fill="#00ccee"  xml:space="preserve" font-size="7.97894" transform="translate(718.849, 234.682)" >SR_set_n</text>
 <text fill="#ff0000"  xml:space="preserve" font-size="4.43274" transform="translate(111.932, 364.929)" >B</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="5.91032" transform="translate(131.981, 357.746)" >R1</text>
 <text fill="#aaaa00"  xml:space="preserve" font-size="5.91032" transform="translate(131.981, 381.189)" >1 * 2.85 / 25</text>
@@ -248,7 +248,7 @@ text {font-family: Sans-Serif;}
 <text fill="#cccccc"  xml:space="preserve" font-size="5.91032" transform="translate(844.04, 331.32)" >Y</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="11.8206" transform="translate(245.641, 569.122)" >         /home/leo/Projects/tt08-aicd-playground/dependencies/sky130_leo_ip__comparator/xschem/sky130_leo_ip__comparator.sch</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="11.8206" transform="translate(245.641, 552.073)" >Leo Moser</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="11.8206" transform="translate(573.757, 552.073)" >2024-08-12  09:47:45</text>
+<text fill="#cccccc"  xml:space="preserve" font-size="11.8206" transform="translate(573.757, 552.073)" >2024-08-27  11:45:13</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="29.5516" transform="translate(114.932, 568.173)" >SCHEM</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="5.91032" transform="translate(492.376, 236.982)" >M8</text>
 <text fill="#ff0000"  xml:space="preserve" font-size="4.43274" transform="translate(511.322, 262.635)" >D</text>
@@ -514,8 +514,8 @@ text {font-family: Sans-Serif;}
 <path class="l5" d="M640.566 328.183L640.654 328.183L640.654 328.271L640.566 328.271L640.566 328.183z"/>
 <path class="l5" d="M463.726 287.736L465.147 287.736L465.147 289.156L463.726 289.156L463.726 287.736z"/>
 <path class="l5" d="M594.436 287.736L595.856 287.736L595.856 289.156L594.436 289.156L594.436 287.736z"/>
-<path class="l5" d="M520.557 287.736L521.977 287.736L521.977 289.156L520.557 289.156L520.557 287.736z"/>
 <path class="l5" d="M651.266 287.736L652.686 287.736L652.686 289.156L651.266 289.156L651.266 287.736z"/>
+<path class="l5" d="M520.557 287.736L521.977 287.736L521.977 289.156L520.557 289.156L520.557 287.736z"/>
 <path class="l5" d="M753.56 344.566L754.98 344.566L754.98 345.986L753.56 345.986L753.56 344.566z"/>
 <path class="l5" d="M753.56 236.589L754.98 236.589L754.98 238.009L753.56 238.009L753.56 236.589z"/>
 <path class="l5" d="M889.241 247.244L892.083 247.244L892.083 250.086L889.241 250.086L889.241 247.244z"/>

@@ -164,7 +164,7 @@ text {font-family: Sans-Serif;}
 <text fill="#cccccc"  xml:space="preserve" font-size="56.4928" transform="translate(758.4, 216.607)" >out_p</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="56.4928" transform="translate(201.24, 542.527)" >in_n</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="56.4928" transform="translate(444.16, 651.167)" >vss</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="56.4928" transform="translate(666.76, 651.167)" >clk_n</text>
+<text fill="#cccccc"  xml:space="preserve" font-size="56.4928" transform="translate(726.76, 651.167)" >clk</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="56.4928" transform="translate(758.4, 433.887)" >out_n</text>
 <path class="l4" d="M65.44 132.72L174.08 132.72"/>
 <path class="l4" d="M65.44 567.28L174.08 567.28"/>

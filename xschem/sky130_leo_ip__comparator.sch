@@ -30,7 +30,7 @@ lab=#net2}
 N 420 280 440 280 {
 lab=in_p}
 N 720 280 740 280 {
-lab=inn}
+lab=in_n}
 N 320 200 320 370 {
 lab=#net2}
 N 320 230 380 230 {
@@ -68,9 +68,9 @@ lab=comp_p}
 N 580 470 580 490 {
 lab=vss}
 N 420 410 580 410 {
-lab=clk_n}
+lab=clk}
 N 580 410 580 430 {
-lab=clk_n}
+lab=clk}
 N 680 330 760 330 {
 lab=comp_p}
 N 480 370 760 370 {
@@ -108,11 +108,11 @@ lab=#net4}
 N 1460 420 1630 340 {
 lab=#net3}
 N 1430 290 1480 290 {
-lab=SR_set}
+lab=SR_set_n}
 N 1430 480 1480 480 {
-lab=SR_reset}
+lab=SR_reset_n}
 N 1000 340 1000 420 {
-lab=SR_reset}
+lab=SR_set_n}
 N 940 310 960 310 {
 lab=comp_p}
 N 940 310 940 450 {
@@ -132,7 +132,7 @@ lab=vdd}
 N 780 670 890 520 {
 lab=vss}
 N 1230 340 1230 420 {
-lab=SR_set}
+lab=SR_reset_n}
 N 1170 310 1190 310 {
 lab=comp_n}
 N 1170 310 1170 450 {
@@ -152,9 +152,9 @@ lab=comp_n}
 N 920 380 940 380 {
 lab=comp_p}
 N 1000 380 1020 380 {
-lab=SR_reset}
+lab=SR_set_n}
 N 1230 380 1250 380 {
-lab=SR_set}
+lab=SR_reset_n}
 N 1000 450 1000 480 {
 lab=vss}
 N 1230 450 1230 480 {
@@ -175,7 +175,7 @@ C {devices/iopin.sym} 180 670 0 1 {name=p5 lab=vss}
 C {devices/lab_wire.sym} 500 280 0 1 {name=p6 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 660 280 0 0 {name=p7 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 580 490 1 1 {name=p8 sig_type=std_logic lab=vss}
-C {devices/ipin.sym} 420 410 0 0 {name=p9 lab=clk_n}
+C {devices/ipin.sym} 420 410 0 0 {name=p9 lab=clk}
 C {devices/opin.sym} 1770 310 0 0 {name=p10 lab=out_p}
 C {sky130_fd_pr/res_xhigh_po_2p85.sym} 320 520 0 0 {name=R1
 L=25
@@ -343,9 +343,9 @@ spiceprefix=X
 }
 C {devices/lab_wire.sym} 920 380 0 0 {name=p13 sig_type=std_logic lab=comp_p}
 C {devices/lab_wire.sym} 1150 380 0 0 {name=p14 sig_type=std_logic lab=comp_n}
-C {devices/lab_wire.sym} 1020 380 0 1 {name=p15 sig_type=std_logic lab=SR_reset}
-C {devices/lab_wire.sym} 1250 380 0 1 {name=p16 sig_type=std_logic lab=SR_set}
-C {devices/lab_wire.sym} 1430 480 0 0 {name=p17 sig_type=std_logic lab=SR_reset}
-C {devices/lab_wire.sym} 1430 290 0 0 {name=p18 sig_type=std_logic lab=SR_set}
+C {devices/lab_wire.sym} 1250 380 0 1 {name=p15 sig_type=std_logic lab=SR_reset_n}
+C {devices/lab_wire.sym} 1020 380 0 1 {name=p16 sig_type=std_logic lab=SR_set_n}
+C {devices/lab_wire.sym} 1430 480 0 0 {name=p17 sig_type=std_logic lab=SR_reset_n}
+C {devices/lab_wire.sym} 1430 290 0 0 {name=p18 sig_type=std_logic lab=SR_set_n}
 C {sky130_stdcells/buf_4.sym} 1710 310 0 0 {name=x3 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/buf_4.sym} 1710 460 0 0 {name=x4 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hvl__ }
